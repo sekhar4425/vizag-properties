@@ -20,7 +20,7 @@ export default async function FeaturedProperties() {
         
         <div className="mt-12 text-center">
           <Button asChild variant="outline" className="border-gold text-gold hover:bg-gold hover:text-white">
-            <Link href="/properties">View All Properties</Link>
+            <Link href="/welcome">View All Properties</Link>
           </Button>
         </div>
       </div>

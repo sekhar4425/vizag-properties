@@ -76,7 +76,7 @@ export default async function PropertyDetailPage({ params }: Props) {
               <span className="mx-2">/</span>
             </li>
             <li className="flex items-center">
-              <Link href="/properties" className="hover:text-gold transition-colors">Properties</Link>
+              <Link href="/welcome" className="hover:text-gold transition-colors">Properties</Link>
               <span className="mx-2">/</span>
             </li>
             <li className="flex items-center">

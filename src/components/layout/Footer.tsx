@@ -25,10 +25,10 @@ export function Footer() {
           <div>
             <h3 className="text-white font-display text-xl mb-6">Quick Links</h3>
             <ul className="space-y-4">
-              <li><Link href="/properties" className="hover:text-gold transition-colors text-sm">All Properties</Link></li>
-              <li><Link href="/properties?type=villa" className="hover:text-gold transition-colors text-sm">Premium Villas</Link></li>
-              <li><Link href="/properties?type=apartment" className="hover:text-gold transition-colors text-sm">Luxury Apartments</Link></li>
-              <li><Link href="/properties?type=plot" className="hover:text-gold transition-colors text-sm">Investment Plots</Link></li>
+              <li><Link href="/welcome" className="hover:text-gold transition-colors text-sm">All Properties</Link></li>
+              <li><Link href="/welcome?type=villa" className="hover:text-gold transition-colors text-sm">Premium Villas</Link></li>
+              <li><Link href="/welcome?type=apartment" className="hover:text-gold transition-colors text-sm">Luxury Apartments</Link></li>
+              <li><Link href="/welcome?type=plot" className="hover:text-gold transition-colors text-sm">Investment Plots</Link></li>
               <li><Link href="/services" className="hover:text-gold transition-colors text-sm">Our Services</Link></li>
               <li><Link href="/services#nri" className="hover:text-gold transition-colors text-sm">NRI Concierge</Link></li>
             </ul>

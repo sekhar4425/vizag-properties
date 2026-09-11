@@ -29,7 +29,7 @@ export default function PropertyFilters({
     const params = new URLSearchParams(searchParams.toString());
     if (value) params.set(key, value);
     else params.delete(key);
-    router.push(`/properties?${params.toString()}`);
+    router.push(`/welcome?${params.toString()}`);
   }, [router, searchParams]);
 
   const propertyTypes = [
@@ -50,7 +50,7 @@ export default function PropertyFilters({
         </div>
         {hasFilters && (
           <button
-            onClick={() => router.push('/properties')}
+            onClick={() => router.push('/welcome')}
             className="inline-flex items-center gap-2 self-start text-sm font-semibold text-gold transition-colors hover:text-gold-hover sm:self-auto"
           >
             <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />

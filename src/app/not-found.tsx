@@ -20,7 +20,7 @@ export default function NotFound() {
               Return Home
             </Button>
           </Link>
-          <Link href="/properties">
+          <Link href="/welcome">
             <Button variant="secondary">
               View Properties
             </Button>

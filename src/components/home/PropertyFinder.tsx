@@ -26,7 +26,7 @@ export default function PropertyFinder() {
     if (filters.location) params.append('location', filters.location);
     if (filters.possession) params.append('possession', filters.possession);
     
-    router.push(`/properties?${params.toString()}`);
+    router.push(`/welcome?${params.toString()}`);
   };
 
   const selectClass = "w-full border border-border bg-card text-foreground rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent appearance-none";

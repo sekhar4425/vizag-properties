@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticRoutes = [
     '',
-    '/properties',
+    '/welcome',
     '/properties/villas',
     '/properties/apartments',
     '/properties/plots',

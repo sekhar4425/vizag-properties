@@ -27,7 +27,7 @@ export function Header() {
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'Properties', href: '/properties' },
+    { name: 'Properties', href: '/welcome' },
     { name: 'Services', href: '/services' },
     { name: 'Invest in Vizag', href: '/invest-in-vizag' },
     { name: 'About', href: '/about' },
